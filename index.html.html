@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noman Motors</title>
+  <link rel="stylesheet" href="noman.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cars">Cars for Sale</a></li>
+        <li><a href="#modifications">Modifications</a></li>
+        <li><a href="#mechanic">Online Mechanic</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="hero">
+        <h1>Welcome to Noman Motors</h1>
+        <p>Your One-Stop Destination for Quality Cars and Car Services</p>
+        <a href="#cars" class="cta-button">Explore Cars</a>
+      </div>
+    </section>
+
+     <section id="cars-for-sale">
+      <div class="car">
+        <img src="gtr.jpg"alt"Car 1">
+        <h3>nissan gtr r35</h3>
+        <p>Year: 2022</p>
+        <p>Price: $25,000</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+      <div class="car">
+        <img src="supra.jpg" alt="Car 2">
+        <h3>toyota supra mk4 twin turbo</h3>
+        <p>Year: 2021</p>
+        <p>Price: $20,000</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+      <div class="car">
+        <img src="crown.jpg" alt="Car 2">
+        <h3>toyota crown </h3>
+        <p>Year:1998 </p>
+        <p>Price: $20,000</p>
+        <a href="#" class="btn">View Details</a>
+      </div>
+    </section>
+
+    <section id="modifications">
+      <h2>Car Modifications</h2>
+      <div class="modification-gallery">
+        <div class="modification-card">
+          <img src="mod.jpg" alt="Modification 1">
+          <h3>Performance Upgrade</h3>
+          <p>Enhance your car's performance with our advanced tuning packages.</p>
+        </div>
+        <div class="modification-card">
+          <img src="kit.jpg" alt="Modification 2">
+          <h3>Body Kit Installation</h3>
+          <p>Give your car a unique and aggressive look with our stylish body kits.</p>
+        </div>
+        <!-- Add more modification cards as needed -->
+      </div>
+    </section>
+	
+    <section id="mechanic">
+         <section id="mechanic">
+      <div class="container">
+        <h2>Online Mechanic Service</h2>
+        <p>Need assistance with your car? Our expert mechanics are here to help!</p>
+        <form id="mechanicForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="carModel">Car Model:</label>
+          <input type="text" id="carModel" name="carModel" required>
+
+          <label for="issueDescription">Describe the Issue:</label>
+          <textarea id="issueDescription" name="issueDescription" rows="4" required></textarea>
+
+          <button type="submit">Submit Request</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have any questions or inquiries? Fill out the form below to get in touch with us.</p>
+      <form id="contactForm" action="submit_form.php" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
+</html>

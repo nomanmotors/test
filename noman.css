@@ -1,0 +1,209 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+/* Home Section Styles */
+#home {
+  text-align: center;
+}
+
+.hero {
+  background-image: url(cover.jpg); /* Add your hero image */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 200px 0;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff0066;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d90051;
+}
+
+
+/* Sections Styles */
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#cars-for-sale {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 40px;
+}
+
+.car {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.car img {
+  max-width: 100%;
+  height: auto;
+}
+
+.car h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.car p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.car .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.car .btn:hover {
+  background-color: #0056b3;
+}
+
+#modifications {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#modifications h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.modification-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.modification-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  max-width: 300px;
+}
+
+.modification-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.modification-card h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.modification-card p {
+  font-size: 18px;
+}
+
+#mechanicForm label,
+#mechanicForm input,
+#mechanicForm textarea,
+#mechanicForm button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#mechanicForm textarea {
+  resize: vertical;
+}
+
+#mechanicForm button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#mechanicForm button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Add animations and attractive transitions as desired */
